@@ -59,8 +59,8 @@ def decodeSSRLink(link):
 def generateConfig(package):
   obj = {}
   obj['server'] = package['server']
-  obj['local_address'] = '0.0.0.0'
-  obj['local_port'] = 12334
+  obj['local_address'] = '127.0.0.1'
+  obj['local_port'] = 1080
   obj['timeout'] = 300
   obj['workers'] = 1
   obj['server_port'] = int(package['port'])
